@@ -1,0 +1,10 @@
+{
+  "/(auth)/connexion/page": "/connexion",
+  "/(auth)/inscription/page": "/inscription",
+  "/(portail)/espace/documents/page": "/espace/documents",
+  "/(portail)/espace/dossier/page": "/espace/dossier",
+  "/(portail)/espace/page": "/espace",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/page": "/"
+}
