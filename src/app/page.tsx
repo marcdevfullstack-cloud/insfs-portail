@@ -13,7 +13,7 @@ export default function LandingPage() {
               <GraduationCap className="w-5 h-5 text-white" />
             </div>
             <div className="leading-tight">
-              <p className="text-xs text-white/70">Portail Étudiant</p>
+              <p className="text-xs text-white/70">Portail Étudiant INSFS - Abidjan </p>
               <p className="text-sm font-bold">INSFS</p>
             </div>
           </div>
