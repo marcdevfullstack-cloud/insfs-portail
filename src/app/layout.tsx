@@ -8,7 +8,7 @@ const geist = Geist({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Portail Étudiant — INSFS",
   description: "Institut National Supérieur de Formation Sociale — Espace d'inscription en ligne",
-  manifest: "/manifest.json",
+  
 };
 
 export const viewport: Viewport = {

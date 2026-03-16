@@ -82,8 +82,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$INSFS$2d$Projet$2
 ;
 const metadata = {
     title: "Portail Étudiant — INSFS",
-    description: "Institut National Supérieur de Formation Sociale — Espace d'inscription en ligne",
-    manifest: "/manifest.json"
+    description: "Institut National Supérieur de Formation Sociale — Espace d'inscription en ligne"
 };
 const viewport = {
     width: "device-width",
