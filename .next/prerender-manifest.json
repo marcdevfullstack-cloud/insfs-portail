@@ -30,54 +30,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/inscription": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/inscription",
-      "dataRoute": "/inscription.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/connexion": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/connexion",
-      "dataRoute": "/connexion.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/espace": {
       "experimentalBypassFor": [
         {
@@ -126,7 +78,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/espace/documents": {
+    "/inscription": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -139,8 +91,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/espace/documents",
-      "dataRoute": "/espace/documents.rsc",
+      "srcRoute": "/inscription",
+      "dataRoute": "/inscription.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -173,13 +125,61 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/connexion": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/connexion",
+      "dataRoute": "/connexion.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/espace/documents": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/espace/documents",
+      "dataRoute": "/espace/documents.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "b348d34e9ba4e4cc76711ea4f3367d1f",
-    "previewModeSigningKey": "3dee85a7d14fa35de5d4e1e71e0487f482da59de996d7122a038f015c70f2fa9",
-    "previewModeEncryptionKey": "c91b357e23debd3bfe3ee98b20628397eb72d831d36ab800437bf150bc56c203"
+    "previewModeId": "5348301bbdad332c64dfec7ce992f04c",
+    "previewModeSigningKey": "c0b09530abfa552ce3d3a99482cac9c045b1eec7cbf8c3a45022176398c1e5d6",
+    "previewModeEncryptionKey": "0a625c79195ff28d9de6ee6bd8fcee2d1c164d3cd84076d60335d450391491d6"
   }
 }
