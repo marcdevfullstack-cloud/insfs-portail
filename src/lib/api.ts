@@ -6,7 +6,8 @@ const api = axios.create({
     "Content-Type": "application/json",
     Accept: "application/json",
   },
-  withCredentials: true,
+  // ❌ Supprimé : withCredentials: true
+  // Tu utilises Bearer token, pas de cookie de session
 });
 
 api.interceptors.request.use((config) => {

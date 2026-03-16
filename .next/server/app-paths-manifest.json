@@ -1,10 +1,10 @@
 {
-  "/(auth)/connexion/page": "app/(auth)/connexion/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
   "/(auth)/inscription/page": "app/(auth)/inscription/page.js",
+  "/(auth)/connexion/page": "app/(auth)/connexion/page.js",
+  "/page": "app/page.js",
   "/(portail)/espace/documents/page": "app/(portail)/espace/documents/page.js",
   "/(portail)/espace/dossier/page": "app/(portail)/espace/dossier/page.js",
-  "/(portail)/espace/page": "app/(portail)/espace/page.js",
-  "/_global-error/page": "app/_global-error/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js"
+  "/(portail)/espace/page": "app/(portail)/espace/page.js"
 }

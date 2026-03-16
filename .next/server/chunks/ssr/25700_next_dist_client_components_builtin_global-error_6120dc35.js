@@ -1,3 +1,0 @@
-module.exports=[34847,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(80785);a.n(d("[project]/Desktop/INSFS-Projet/insfs-portail/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},81419,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(80785);a.n(d("[project]/Desktop/INSFS-Projet/insfs-portail/node_modules/next/dist/client/components/builtin/global-error.js"))},2549,a=>{"use strict";a.i(34847);var b=a.i(81419);a.n(b)}];
-
-//# sourceMappingURL=25700_next_dist_client_components_builtin_global-error_6120dc35.js.map

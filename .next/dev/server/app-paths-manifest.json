@@ -1,7 +1,0 @@
-{
-  "/(auth)/connexion/page": "app/(auth)/connexion/page.js",
-  "/(auth)/inscription/page": "app/(auth)/inscription/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
-  "/page": "app/page.js"
-}
